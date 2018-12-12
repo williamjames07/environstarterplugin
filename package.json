@@ -1,0 +1,9 @@
+{
+  "name": "environstarterplugin",
+  "version": "1.0.0",
+  "description": "Environ Starter is an easy to use framework for modern day WordPress plugin development.",
+  "main": "index.js",
+  "repository": "git@github.com:williamjames07/environstarterplugin.git",
+  "author": "William McIntyre <williamjames.developer@gmail.com>",
+  "license": "MIT"
+}
