@@ -1,0 +1,17 @@
+{
+    "name": "environ/environstarterplugin",
+    "description": "Environ Starter is an easy to use framework for modern day WordPress plugin development.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William McIntyre",
+            "email": "williamjames.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Environ\\": "./plugin/inc"}
+    }
+}

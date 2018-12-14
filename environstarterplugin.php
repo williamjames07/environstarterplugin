@@ -1,7 +1,7 @@
 <?php
 /**
  * ---------------------------------------------------------------------
- * License & Details
+ * Environ Starter Plugin
  * ---------------------------------------------------------------------
  * PLugin Name:     Environ
  * Plugin URI:      https://environ.io
@@ -10,4 +10,20 @@
  * Author URI:      https://environ.io
  * Version:         1.0.0
  * License:         MIT
+ *
+ * @package EnvironStarterPlugin
+ * @version 1.0.0
  */
+
+defined( 'ABSPATH' ) or die('Access Denied!');
+
+if (file_exists( dirname(__FILE__) . '/vendor/autoload.php')) {
+    require_once dirname(__FILE__) . '/vendor/autoload.php';
+}
+
+class EnvironStarterPlugin
+{
+    // Methods go here...
+}
+
+$EnvironStarterPlugin = new EnvironStarterPlugin();
