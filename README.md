@@ -1,4 +1,4 @@
-<p align="center"><img src="resources/images/logo.png" height="75"></p>
+<p align="center"><img src="resources/images/logo.png" height="85"></p>
 
 # Environ Starter
 
