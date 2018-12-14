@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Environ\\' => array($baseDir . '/plugin/includes'),
+    'Environ\\' => array($baseDir . '/plugin/inc'),
 );

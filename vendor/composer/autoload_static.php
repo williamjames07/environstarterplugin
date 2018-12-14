@@ -16,7 +16,7 @@ class ComposerStaticInit0879ac0d397efcb0cc92e23e80deadb7
     public static $prefixDirsPsr4 = array (
         'Environ\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/plugin/includes',
+            0 => __DIR__ . '/../..' . '/plugin/inc',
         ),
     );
 
