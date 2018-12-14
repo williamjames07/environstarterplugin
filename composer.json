@@ -12,6 +12,6 @@
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-        "psr-4": {"Environ\\": "./plugin/inc"}
+        "psr-4": {"Inc\\": "plugin/inc"}
     }
 }
