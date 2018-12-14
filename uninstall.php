@@ -10,7 +10,7 @@
  *
  * @link https://developer.wordpress.org/plugins/the-basics/uninstall-methods/
  *
- * @package EnvironStarterPlugin
+ * @package EnvironPlugin
  */
 if (!defined( 'WP_UNINSTALL_PLUGIN' )) {
     die;
