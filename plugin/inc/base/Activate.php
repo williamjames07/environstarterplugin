@@ -15,6 +15,6 @@ class Activate
 {
 	public static function activate() {
 
-		// die('Die'); testing remove
+		// die('DIE'); Testing purpose remove! 
 	}
 }
