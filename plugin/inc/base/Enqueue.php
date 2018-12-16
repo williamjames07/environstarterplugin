@@ -1,20 +1,18 @@
 <?php
 /**
  * ---------------------------------------------------------------------
- * Activate 
+ * Enqueue
  * ---------------------------------------------------------------------
- *
- * The activation class fires when the plugin is activated. 
  *
  * @package EnvironPlugin
  */
 
 namespace Inc\Base;
 
-class Activate
+class Enqueue
 {
-	public static function activate() {
+	public static function register() {
 
-		// die('DIE'); Testing purpose remove!
+		// Register methods
 	}
 }

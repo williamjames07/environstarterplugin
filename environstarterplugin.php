@@ -48,5 +48,5 @@ function deactivate_environ_plugin() {
 
 
 if (class_exists('Inc\\Init')) {
-   // Inc\Init::register_services();
+   //Inc\Init::register_services();
 }

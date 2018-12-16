@@ -1,20 +1,18 @@
 <?php
 /**
  * ---------------------------------------------------------------------
- * Activate 
+ * Admin
  * ---------------------------------------------------------------------
- *
- * The activation class fires when the plugin is activated. 
  *
  * @package EnvironPlugin
  */
 
-namespace Inc\Base;
+namespace Inc\Admin;
 
-class Activate
+class Admin
 {
-	public static function activate() {
+	public static function register() {
 
-		// die('DIE'); Testing purpose remove!
+		// Register admin methods
 	}
 }

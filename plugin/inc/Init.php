@@ -13,7 +13,10 @@ class Init
 {
 	public function get_services() 
 	{
-		return [];
+		return [
+			Admin\Admin::class,
+			Base\Enqueue::class
+		];
 	}
 
 	public static function register_services( $class ) 
