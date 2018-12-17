@@ -11,7 +11,13 @@ namespace Inc;
 
 class Init
 {
-	public function get_services() 
+
+	/**
+	 * Store all Classes inside an array
+	 *
+	 * @return array list
+	 */
+	public static function get_services() 
 	{
 		return [
 			Admin\Admin::class,
@@ -19,6 +25,12 @@ class Init
 		];
 	}
 
+	/**
+	 * Loop through all Classes and initialize them,
+	 * call the register(0 method if it exists
+	 * 
+	 * @return
+	 */
 	public static function register_services( $class ) 
 	{
 		foreach ( self::get_services() as $class ) {
@@ -29,6 +41,12 @@ class Init
 		}
 	}
 
+	/**
+	 * Initialize the Class
+	 *
+	 * @param  class $class  	class from services array
+	 * @return class instance  	new instance of class
+	 */
 	private static function instantiate( $class ) 
 	{
 		$service = new $class();

@@ -13,8 +13,8 @@ namespace Inc\Base;
 
 class Activate
 {
-	public static function activate() {
-
-		// die('DIE'); Testing purpose remove!
+	public static function activate() 
+	{
+		flush_rewrite_rules();
 	}
 }

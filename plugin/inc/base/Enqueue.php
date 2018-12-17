@@ -11,8 +11,13 @@ namespace Inc\Base;
 
 class Enqueue
 {
-	public static function register() {
+	public function register() 
+	{
+		// Do something cool!!!
+	}
 
-		// Register methods
+	public function index()
+	{
+		// Do something cool!!!
 	}
 }

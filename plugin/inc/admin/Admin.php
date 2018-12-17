@@ -11,8 +11,13 @@ namespace Inc\Admin;
 
 class Admin
 {
-	public static function register() {
+	public function register() 
+	{
+		// Do something cool!!!
+	}
 
-		// Register admin methods
+	public function index()
+	{
+		// Do something cool!!!
 	}
 }
